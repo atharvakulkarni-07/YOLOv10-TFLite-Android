@@ -17,19 +17,6 @@ A cutting-edge **Object Detection Application** built using the YOLOv10 model, o
 
 ---
 
-## 📂 Repository Structure (to be updated)
-
-```plaintext
-YOLOv10-TFLite-on-Android-for-Object-Detection/
-├── model/                  # Pretrained YOLOv10 model in TFLite format
-├── app/                    # Android application code
-│   ├── src/
-│   ├── res/
-│   ├── manifests/
-├── assets/                 # Additional assets (e.g., demo images)
-├── README.md               # This file
-├── LICENSE                 # Project license information
-```
 # 🛠️ Setup and Installation
 Prerequisites:
 1. Android Studio installed on your system.
@@ -42,14 +29,15 @@ Prerequisites:
 git clone https://github.com/yourusername/YOLOv10-TFLite-on-Android-for-Object-Detection.git
 cd YOLOv10-TFLite-on-Android-for-Object-Detection
 ```
-2. Open in Android Studio
-3. Launch Android Studio and open the app/ directory as a new project.
-4. Add the YOLOv10 Model
-5. Ensure the YOLOv10 TFLite model is in the assets folder
-6. Build the App
-7. Sync the project and build the APK.
-8. Get the APK in your android device (via USB / other methods)
-9. Install the APK and Run the App
+2. Make sure to run the colab file and export the YOLOv10-LiteRT model
+3. Ensure the LiteRT model is placed in the [assets](https://github.com/atharvakulkarni-07/YOLOv10-TFLite-Android/tree/main/Android_App/app/src/main/assets) folder, which is a subfolder of Andriod application
+4. Open the [app](https://github.com/atharvakulkarni-07/YOLOv10-TFLite-Android/tree/main/Android_App/app) folder in Android Studio
+5. Launch Android Studio and open it as a new project.
+6. Ensure the YOLOv10 TFLite model is in the assets folder
+7. Build the App
+8. Sync the project and build the APK.
+9. Get the APK in your android device (via USB / other methods)
+10. Install the APK and Run the App
 
 # 📸 How It Works
 1. Open the app on your Android device.
