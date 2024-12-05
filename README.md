@@ -23,6 +23,8 @@ Prerequisites:
 2. A smartphone running Android 5.0 (Lollipop) or above.
 3. Basic understanding of Android development (optional).
 
+--- 
+
 ## Steps
 1. Clone this Repository
 ```plaintext
@@ -39,14 +41,22 @@ cd YOLOv10-TFLite-on-Android-for-Object-Detection
 9. Get the APK in your android device (via USB / other methods)
 10. Install the APK and Run the App
 
-## APK Versions
-Altogether, we have a universal APK built at the end. 
+---
 
+## APK Versions
+Altogether, we have an universal APK built at the end. 
+- Split the built in to 4 versions on android studio
+- Select the version that best suits for android (v7a for 32 bits / v8a for 64 bits)
+
+---
+  
 # 📸 How It Works
 1. Open the app on your Android device.
 2. Grant camera permissions if prompted.
 3. Point your camera at an object.
 4. The app will identify the object and display its label and bounding box in real time.
+
+---
    
 # 💻 Technical Details
 1. YOLOv10 Model: Exported from PyTorch using the LiteRT format and converted to TensorFlow Lite using TensorFlow's conversion tools.
@@ -54,6 +64,8 @@ Altogether, we have a universal APK built at the end.
 3. Performance Optimization:
    - Model quantized for faster inference.
    - Optimized for low-power mobile devices without compromising accuracy.
+  
+---
 
 # 📊 Results
 1. Detection Speed: 30+ FPS on modern Android devices.
