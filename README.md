@@ -39,6 +39,9 @@ cd YOLOv10-TFLite-on-Android-for-Object-Detection
 9. Get the APK in your android device (via USB / other methods)
 10. Install the APK and Run the App
 
+## APK Versions
+Altogether, we have a universal APK built at the end. 
+
 # 📸 How It Works
 1. Open the app on your Android device.
 2. Grant camera permissions if prompted.
